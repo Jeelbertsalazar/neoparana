@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'Gotham-Black';
+    src: url('/Gotham-Black.otf') format('opentype');
+}
+body {
+    font-family: 'Gotham-Black', Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    align-items: column;
+    color: white;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+    
+.content h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 0;
+}
